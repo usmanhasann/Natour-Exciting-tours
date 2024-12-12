@@ -19,18 +19,18 @@ a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
-} 
+}
 a:hover {
   color: #535bf2;
 }
-/* Master  css course with jones*/
+/*! Master  css course with jones*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: "Lato",sans-serif;
+body {
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 1.7;
   font-weight: 400;
@@ -38,8 +38,12 @@ body{
   /* it will give the image and all the element padding  */
   padding: 30px;
 }
+/* 0 mean we dont want to change the cliped-pic */
+header {
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
 
-/* Master  css course with jones*/
+/*! Master  css course with jones*/
 
 h1 {
   font-size: 3.2em;
