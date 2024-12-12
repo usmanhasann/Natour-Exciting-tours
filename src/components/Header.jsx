@@ -12,10 +12,16 @@ const Header = () => {
         <div className="logo-box absolute top-10 left-10 ">
           <img src={Logo} alt="logo" className="h-[35px]" />
         </div>
-        <h1 className="text-[#fff] uppercase">
-          <span className="">Outdoors</span>
-          <span>is where life happens</span>
-        </h1>
+        <div className="absolute top-[40%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+          <h1 className="text-[#fff] uppercase ">
+            <span className="block font-[400] tracking-[35px] text-[60px]">
+              Outdoors
+            </span>
+            <span className="block text-[20px] tracking-[17.4px] font-[700]">
+              is where life happens
+            </span>
+          </h1>
+        </div>
       </header>
     </>
   );
