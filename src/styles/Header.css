@@ -1,0 +1,42 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    /* text come to right▶️ direction as it is (-) */
+    transform: translateX(-100px);
+  }
+  80% {
+    /* text come to left ⬅️direction as it is (+) */
+
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 1;
+    /* come to initial   */
+    transform: translate(0);
+    
+  }
+}
+
+.heading-primary-main {
+  animation-name: moveInLeft;
+  animation-duration: 5s;
+
+  /* animation-delay: 2s; 
+    animation-iteration-count: 2;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+
+
+  */
+}
+
+/* ? what I Learn ?
+*--animation name + duration 
+*--animation delay                        ▶️ will wait 3 second before play
+*--
+*--
+*--
+*--
+*--
+*--
+
+*/
