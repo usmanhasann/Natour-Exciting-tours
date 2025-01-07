@@ -30,10 +30,9 @@
 }
 
 /* ? what I Learn ?
-*--animation name + duration 
-*--animation delay                        ▶️ will wait 3 second before play
-*--
-*--
+
+*--psedo element ::after 
+*--pseudo class are the special keyword that can be added to a selector, to specify a special state of the selected element(s).
 *--
 *--
 *--
